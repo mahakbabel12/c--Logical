@@ -1,0 +1,651 @@
+ASSIGNMENT 5
+
+1.WEEEK
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("entewr the value of a :");
+    scanf("%d",&a);
+    if(a==1){
+        printf("monday");
+    }
+    else if(a==2){
+        printf("tuesday");
+    }
+    else if(a==3){
+        printf("wednesday");
+    }
+     else if(a==4){
+        printf("thursday");
+    }
+     else if(a==5){
+        printf("friday");
+    }
+     else if(a==6){
+        printf("saturday");
+    }
+     else if(a==7){
+        printf("sunday");
+    }
+
+    return 0;
+}
+
+---------------------------------------------------------------------
+
+2.MONTH
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("entewr the value of a :");
+    scanf("%d",&a);
+    if(a==1){
+        printf("january");
+    }
+    else if(a==2){
+        printf("feb");
+    }
+    else if(a==3){
+        printf("march");
+    }
+     else if(a==4){
+        printf("april");
+    }
+     else if(a==5){
+        printf("may");
+    }
+     else if(a==6){
+        printf("june");
+    }
+     else if(a==7){
+        printf("july");
+    }
+    else if(a==8){
+        printf("august");
+    }
+    else if(a==9){
+        printf("sep");
+    }
+    else if(a==10){
+        printf("oct");
+    }
+    else if(a==11){
+        printf("nov");
+    }
+    else if(a==12){
+        printf("dec");
+    }
+    else{
+        printf("not valid")
+    }
+
+    return 0;
+}
+
+--------------------------------------------------------------------
+3.a :
+	two number addition
+
+s :
+	two number substraction
+
+m :
+	two number multiplication
+
+d :
+	two number divide 
+
+o :
+	two number modular 
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    if(a==1){
+        int n1,n2,sum;
+        printf("enter the value of n1 and n2");
+        scanf("%d %d",&n1,&n2);
+        sum=n1+n2;
+        printf("%d",sum);
+        
+    }
+    else if(a==2){
+         int n1,n2,sub;
+        printf("enter the value of n1 and n2");
+        scanf("%d %d",&n1,&n2);
+        sub=n1-n2;
+        printf("%d",sub);
+    }
+    else if(a==3){
+         int n1,n2,mul;
+        printf("enter the value of n1 and n2");
+        scanf("%d %d",&n1,&n2);
+        mul=n1*n2;
+        printf("%d",mul);
+    }
+    else if(a==4){
+         int n1,n2,div;
+        printf("enter the value of n1 and n2");
+        scanf("%d %d",&n1,&n2);
+        div=n1*n2;
+        printf("%d",div);
+    }
+    else{
+    
+      printf("not valid");
+       
+       
+    }
+    return 0;
+}
+-----------------------------------------------------------------
+4.SEASONS
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    if(a==1 ||a==2||a==12){
+        printf("winter");
+    }
+    else if(a==3||a==4||a==5){
+        printf("summer");
+    }
+    else if(a==6||a==7||a==8){
+        printf("rainy");
+    }
+    else{
+        printf("not valid input");
+    }
+
+    return 0;
+}
+------------------------------------------------------------------------------
+5
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value of a:");
+    scanf("%c",&a);
+    if(a=='q'||a=='w'||a=='e'||a=='r'||a=='t'){
+        printf("upper");
+    }
+    else if(a=='a'||a=='s'||a=='d'||a=='f'){
+        printf("middle");
+    }
+    else if(a=='z'||a=='x'||a=='c'||a=='v'){
+        printf("lower");
+    }
+    else{
+        printf("invalid input");    }
+
+    return 0;
+}
+-------------------------------------------------------------------------------
+6./*a :apple 
+b :ball
+c :cat 
+d :dog */
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter a no.:");
+    scanf("%c",&a);
+    if(a=='a'){
+        printf("apple");
+    }
+    else if(a=='b'){
+        printf("ball");
+    }
+    else if(a=='c'){
+        printf("cat");
+    }
+    else if(a=='d'){
+        printf("dog");
+    }
+    else{
+        printf("invalid input");
+    }
+    return 0;
+}
+--------------------------------------------------------------------------------------------------
+7./*s :
+	two number input number swap without third variable 
+
+w :
+	two number input number swap with third variable 
+
+
+input is not valid  
+*/
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character:");
+    scanf("%c",&a);
+    if(a=='s'){
+        int c,b;
+        printf("enter the two values:");
+        scanf("%d %d",&c,&b);
+        printf("value %d \n",c);
+        printf("value:%d \n",b);
+        
+        c=c+b;
+        b=c-b;
+        c=c-b;
+        printf("after swap value of c %d",c);
+        printf("after swap value of b: %d",b);
+    }
+    else if(a=='w'){
+        int b,c,d;
+        printf("enter the two values:");
+        scanf("%d %d",&c,&b);
+        printf("value %d \n",c);
+        printf("value:%d \n",b);
+        d=b;
+        b=c;
+        c=d;
+        printf("after swap value of c %d",c);
+        printf("after swap value of b: %d",b);
+        
+    }
+    
+    else{
+        printf("invalid");
+    }
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------
+
+8.
+user five marks input 
+all subject marks greater 36 
+	pass
+
+fail
+
+#include<stdio.h>
+int main(){
+    int a,b,c,d,e;
+    printf("enter the marks of a b c d e :",a,b,c,d,e);
+    scanf("%d %d %d %d %d",&a ,&b,&c,&d,&e );
+    if(a>=36&&b>=36&&c>=36&&d>=36&&e>=36){
+        printf("pass");
+    }
+    else {
+        printf("fail");
+    }
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------------
+9.
+/*user input number : 
+	2 nd 3 both 
+	6 and 9 anyone 
+	5 and 4 both 
+	3 and 8 anyone 
+
+input is not valid */
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    
+    if(a%2==0&&a%3==0){
+        printf("divisible");
+    }
+    else if(a%6==0 || a%9==0){
+        printf("div by 6 or 9");
+    }
+    else if(a%5==0 && a%4==0){
+        printf("div by 5 and 9");
+    }
+    else if(a%3==0 || a%8==0){
+        printf("diiv by 3 or 8");
+    }
+    else{
+        printf("not valid");
+    }
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------
+10./*1----->10 this number is between 1 to 10 
+11---->20 this number is between 11 to 20
+34--->89 this number is between 34 to 89 
+input is not valid */
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    if(a>=1 && a<=10){
+        printf("bet 1 and 10");
+    }
+    else if(a>=11 && a<=20){
+        printf("bet 11 and 20");
+    }
+    else if(a>=34 && a<=89){
+        printf("bet 34 and 89");
+    }
+    else{
+        printf("invalid");
+    }
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------
+11.
+/******************************************************************************
+user five marks input 
+all subject marks greater 36 
+	average 
+	total average is :...
+
+fail
+
+
+#include<stdio.h>
+int main(){
+    int a,b,c,d,e;
+    printf("enter the marks :");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    if(a>=36 && b>=36 && c>=36 && d>=36 && e>=36){
+        printf("pass/n");
+        float avg;
+        avg=(a+b+c+d+e)/5;
+        printf("%f",avg);
+    }
+    else{
+        printf("fail");
+    }
+    return 0;
+}
+--------------------------------------------------------------------------------------------------
+12.
+user five marks input 
+all subject marks greater 40
+	percentage...
+
+fail
+
+
+#include<stdio.h>
+int main(){
+    int a,b,c,d,e;
+    printf("enter the marks :");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    if(a>=40 && b>=40 && c>=40 && d>=40 && e>=40){
+        printf("pass\n");
+        float avg,per;
+        avg=(a+b+c+d+e)/5;
+        printf("%f\n",avg);
+        per=(a+b+c+d+e)/500.0*100;
+        printf("%f",per);
+        
+    }
+    else{
+        printf("fail");
+    }
+    return 0;
+}
+-----------------------------------------------------------------------------------
+13.
+C program to convert temperature from Fahrenheit to Celsius and Celsius to Fahrenheit
+celsius 
+f---->c 
+fahrenheit
+c---f
+
+
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the value of a:");
+    scanf("%c",&a);
+    if(a=='f'){
+        float f,c;
+        printf("enter the temp in celsius:\n");
+        scanf("%f",&c);
+        f=(1.8*c)+32;
+        printf("temp in f:%.2f",f);
+    }
+    else if(a=='c'){
+        float f,c;
+        printf("enter the temp in fahrenheit:\n");
+        scanf("%f",&f);
+        c=(f-32)*5/9;
+        printf("temp in c:%.2f",c);
+        
+    }
+    return 0;
+}
+-----------------------------------------------------------------------------
+14.
+C program to enter student marks and find percentage and grade
+A college has the following rules for the grading system:
+5 marks (grade + %)
+1. Below 25 – F
+2. 25 to 45 – E
+3. 45 to 50 – D
+4. 50 to 60 – C
+5. 60 to 80 – B 
+6. Above 80 – A
+
+#include<stdio.h>
+int main(){
+  int a,b,c,d,e;
+  float per;
+  printf("enter the marks:");
+  scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+  per=(a+b+c+d+e)/500.0*100;
+  printf("%f\n",per);
+  if(per<25){
+      printf("grade F");
+  }
+  else if(per>=25 && per<45){
+      printf("grade E");
+  }
+  else if(per>=45 && per<50){
+      printf("grade D");
+  }
+  else if(per>=50 && per<60){
+      printf("grade C");
+      
+  }
+ else if(per>=60 && per<80){
+      printf("grade B");
+ }
+ else if(per>80){
+      printf("grade A");
+ }
+    
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------
+15./******************************************************************************
+Write a C program to read the roll no, name,fnname and marks of three subjects and calculate the total, percentage and division.
+Test Data :
+Input the Roll Number of the student :784
+student name : 
+fname:
+mname:
+address:
+contact:
+Input the marks of Physics, Chemistry and Computer Application : 70 80 90
+total: 
+precentage : % 
+division:*/
+
+#include<stdio.h>
+int main(){
+    int physics ,chemistry ,ComputerApplication,total;
+    printf("name=mahak\n");
+    printf("fname=mr rakesh kumar babel\n");
+    printf("mname=mrs ajanta babel\n");
+    printf("Roll Number of the student :784\n");
+    printf("address=chittorgarh\n");
+    printf("contact no.=567583990\n");
+    printf("enter marks:\n");
+    scanf("%d %d %d",&physics,&chemistry,&ComputerApplication);
+    total=physics+chemistry+ComputerApplication;
+    printf("%d\n",total);
+    float percentage;
+    percentage=(total/300.0)*100;
+    printf("%f\n",percentage);
+    if(percentage>=60){
+        printf("1 division");
+    }
+    else if(percentage<45&&percentage>60){
+        printf("2 division");
+        
+    }
+    else if(percentage>45 && percentage<35){
+        printf("3 division");
+    }
+    else{
+        printf("FAIL");
+    }
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------
+16./*salalry :
+holidays (1) =full salary 
+2-5 =5% 
+5-14 =10% 
+15 =50% 
+else =not salary 
+
+output : 
+name:
+address: 
+bank details: 
+salary : 
+alot :
+ holidays */
+
+
+
+#include<stdio.h>
+int main(){
+    float salary;
+    int a;
+    printf("name :mahak babel\n");
+    printf("addresss: chittorgarh\n");
+    printf("bank:union bank\n");
+    printf("enter your salary:\n");
+    scanf("%f",&salary);
+    printf("enter your holiday");
+    scanf("%d",&a);
+    if (a==1){
+        float f;
+        f=salary;
+        printf("full salay %f",f);
+        }
+    else if (a>2 && a<=5){
+        float c;
+        c=0.95*salary;
+        printf("total %.2f",c);
+    }
+    else if(a>5 && a<=14){
+        float d;
+        d=salary*0.90;
+        printf("total salary %.2f",d);
+    }
+    else if(a>=15){
+        float e;
+        e=salary*0.50;
+        printf("total salary: %.2f",e);
+        
+    }
+    else {
+        printf("no salary");
+}
+    return 0;
+}
+-----------------------------------------------------------------------------------------------------
+17./*electric city bill : 
+4 unit 
+40 
+1- 10 = 10% 
+11-20 =15% 
+21-40 =30% 
+50 =50% 
+
+output : 
+name:
+unit :3 
+amout 30 
+discout : 10% 
+total pay amount : 
+
+
+
+difference between multiple if and else if : */
+#include<stdio.h>
+int main(){
+    int unit;
+    printf("name:mahak\n");
+    printf("enter the unit :\n");
+    scanf("%d",&unit);
+    float amount;
+    amount= 10*unit;
+    printf("%f",amount);
+    if(unit>=1 && unit<=10){
+        float g;
+        g=amount*0.1;
+        
+        printf("discount %.2f",g);
+        total_amount=amount-g;
+        printf("totala mount:%.2f",total_amount);
+    }
+    else if(unit >=11 && unit <=20){
+        float h;
+        h=amount*0.15;
+        printf("discount %.2f\n");
+        float total_amount;
+        total_amount=amount-h;
+        printf("totala mount:%.2f",total_amount);
+    }
+    else if(unit>=21 && unit<=40){
+        float j;
+        j=amount*0.3;
+        printf("discount %.2f",j);
+        float total_amount;
+        total_amount=amount-j;
+        printf("totala mount:%.2f",total_amount);
+        
+    }
+    else if(unit<=41 && unit>50){
+        float u;
+        u=amount*0.5;
+        printf("total amount %.2f",u);
+        float total_amount;
+        total_amount=amount-u;
+        printf("totala mount:%.2f",total_amount);
+    }
+    else{
+        printf("no discount pay full");
+    }
+    return 0;
+    
+}
+
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,412 @@
+assignment 4
+
+
+1.write  a c pgm and check a user is eligible for vote or not .
+
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a :");
+    scanf("%d",&a);
+    if(a>=18){
+        printf("eligible for vote");
+    }
+    else{
+        printf("not an eligible for vote");
+    }
+    
+    return 0;
+}
+
+2.write a c program input character 'a' then print apple otherwise input is not valid 
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the value of a :");
+    scanf("%c",&a);
+    if(a=='a'){
+        printf("apple");
+    }
+    else{
+        printf("not valid");
+    }
+    return 0;
+}
+
+3.write a c program and check a number is greater than 10 or not: 
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a>10){
+        printf("no. is greater");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+4.write a c program and check a number is greater than 50 or not: 
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a>50){
+        printf("no. is greater");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+5.write a c program and check a number is greater than 45  or not: 
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a>45){
+        printf("no. is greater");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+6.
+check a number is even or odd : 
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a%2==0){
+        printf("even");
+    }
+    else{
+        printf("odd");
+    }
+    return 0;
+}
+
+7.write a c program and check a number is divisible by 5 or not ? 
+
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a%5==0){
+        printf("divisible");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+8.write a c program input character 'h' then print house otherwise input is not valid write a c program input character 'h' then print house otherwise input is not valid 
+
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the value of a :");
+    scanf("%c",&a);
+    if(a=='h'){
+        printf("house");
+    }
+    else{
+        printf("not valid");
+    }
+    return 0;
+}
+
+9.check a input is vowel or consonant 
+
+#include<stdio.h>
+int main (){
+    char a;
+    printf("enter the word :");
+    scanf("%c",&a);
+    if(a=='a' || a=='e' ||a=='i'||a=='o'||a=='u'){
+        printf("vowel");
+        
+    }
+    else{
+        printf("not vowel");
+    }
+    return 0;
+}
+
+10.write a c program input character when user input p , e , a , k peak word other wise input is not valid
+
+#include<stdio.h>
+int main (){
+    char a;
+    printf("enter the word :");
+    scanf("%c",&a);
+    if(a=='p' || a=='e' ||a=='a'||a=='k'){
+        printf("peak");
+        
+    }
+    else{
+        printf("not valid");
+    }
+    return 0;
+}
+
+11.write a c program input number when user input a number 1 then print one other wise input is not valid
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the value of a :");
+    scanf("%c",&a);
+    if(a=='1'){
+        printf("one");
+    }
+    else{
+        printf("not valid");
+    }
+    return 0;
+}
+
+13.write a c program input character when user input q,w,e,r,t,y,u,i,o,p upper line other wise input is not valid 
+
+#include<stdio.h>
+int main (){
+    char a;
+    printf("enter the word :");
+    scanf("%c",&a);
+    if(a=='q' || a=='w' ||a=='e'||a=='r'||a=='t'||a=='y'||a=='u'||a=='i'||a=='o'||a=='p){
+        printf("valid");
+        
+    }
+    else{
+        printf("not valid");
+    }
+    return 0;
+}
+
+
+12.to take user input of float and integer values
+
+#include<stdio.h>
+int main (){
+    int a;
+    printf("enter the value of int a:");
+    scanf("%d",&a);
+    float b;
+    printf("enter the value of float b:");
+    scanf("%f",&b);
+    return 0;
+}
+
+13.
+#include<stdio.h>
+int main(){
+    char a;
+    printf("check for the character value :");
+    scanf("%d",&a);
+}
+
+14.adding two user input values
+
+#include<stdio.h>
+int main(){
+    int a ,b;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    int c=a+b;
+    printf("a+b= %d",c);
+}
+
+15.subracting two user input values.
+
+#include<stdio.h>
+int main(){
+    int a ,b;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    int c=a-b;
+    printf("a-b= %d",c);
+}
+
+16.
+#include<stdio.h>
+int main(){
+    int a ,b;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    int c=a/b;
+    printf("a/b= %d",c);
+}
+
+17.
+#include<stdio.h>
+int main(){
+    int a ,b;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    int c=a*b;
+    printf("a*b= %d",c);
+}
+
+18.
+//45+78+23+12
+#include<stdio.h>
+int main(){
+    int a,b,c,d,sum;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    printf("enter the value of c:");
+    scanf("%d",&c);
+    printf("enter the value of d:");
+    scanf("%d",&d);
+    sum=a+b+c+d;
+    printf("%d",sum);
+}
+
+19.
+//56*34+12/2-13
+#include<stdio.h>
+int main(){
+    int a,b,c,d,e,n;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    printf("enter the value of c:");
+    scanf("%d",&c);
+    printf("enter the value of d:");
+    scanf("%d",&d);
+    printf("enter the value of e:");
+    scanf("%d",&e);
+    n=a*b+c/d-e;
+    printf("%d",n);
+}
+
+20.
+
+//2*6.7-4.5/2 
+#include<stdio.h>
+int main(){
+    int a;
+    float b,c,result;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%f",&b);
+    printf("enter the value of c:");
+    scanf("%f",&c);
+    result=a*b-c/a;
+    printf("%f",result);
+    return 0;
+}
+
+21.
+//6*(12-2)/2+7.8-1.5 
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    float d,e,result;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    printf("enter the value of c:");
+    scanf("%d",&c);
+    printf("enter the value of d:");
+    scanf("%f",&d);
+    printf("enter the value of e:");
+    scanf("%f",&e);
+    result=a*(b-c)/c+d-e;
+    printf("%f",result);
+    return 0;
+}
+
+22
+//5*1.2-(82/2)-5.6 +1.234
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    float d,e,f,result;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    printf("enter the value of c:");
+    scanf("%d",&c);
+    printf("enter the value of d:");
+    scanf("%f",&d);
+    printf("enter the value of e:");
+    scanf("%f",&e);
+    printf("enter the value of f:");
+    scanf("%f",&f);
+    result=a*d-(b/c)-e+f;
+    printf("%f",result);
+    return 0;
+}
+
+23.
+//8*1+(4-2)/1+6
+#include<stdio.h>
+int main(){
+    int a,b,c,d,e,result;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    printf("enter the value of c:");
+    scanf("%d",&c);
+    printf("enter the value of d:");
+    scanf("%d",&d);
+    printf("enter the value of e:");
+    scanf("%d",&e);
+    result=a*b+(c-d)/b+e;
+    printf("%d",result);
+    
+}
+
+24.
+
+//3.4+1.2*(3.7-1.2)/2+6.8 
+#include<stdio.h>
+int main(){
+    int a;
+    float b,c,d,e,result;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%f",&b);
+    printf("enter the value of c:");
+    scanf("%f",&c);
+    printf("enter the value of d:");
+    scanf("%f",&d);
+    printf("enter the value of e:");
+    scanf("%f",&e);
+    result=b+c*(d-c)/a+e;
+    printf("%f",result);
+    
+}

@@ -1,0 +1,271 @@
+Assignment
+
+1.print 5 five name without new line
+
+#include <stdio.h>
+int main(){
+    printf("pooja ");
+    printf("poonam ");
+    printf("kartikey ");
+    printf("mohit ");
+    printf("nikita");
+    return 0;
+
+}
+
+2.print 5 countries name without new line
+
+#include <stdio.h>
+int main(){
+    printf("india ");
+    printf("africa ");
+    printf("russia ");
+    printf("china ");
+    printf("korea");
+    return 0;
+}
+
+3.print 5 cities name with new line
+
+#include<stdio.h>
+int main(){
+    printf("chittor\n");
+    printf("jaipur\n");
+    printf("bhilwara\n");
+    printf("pali\n");
+    printf("ajmer");
+    return 0;
+
+}
+
+4.print 5 cities name with no new line
+
+#include<stdio.h>
+int main(){
+    printf("pizza ");
+    printf("burger ");
+    printf("maggi ");
+    printf("manchurian ");
+    printf("pav bhaji ");
+    return 0;
+
+}
+
+5. print 5 cafe names with new line 
+
+#include<stdio.h>
+int main(){
+    printf("cafe quaint\n");
+    printf("cafe bae\n");
+    printf("nothinf before coffee\n");
+    printf("stepout cafe\n");
+    printf("anokhi cafe");
+    return 0;
+
+}
+
+ASSIGNMENT 2 1AUGUST
+
+1=.783
+-34.000000
+7.800000
+12
+123.422302
+
+
+#include<stdio.h>
+int main(){
+    int a=783;
+    float b= -34;
+    float c=7.8;
+    int d=12;
+    float e=123.4223;
+    printf("%d\n",a);
+    printf("%f\n",b);
+    printf("%f\n",c);
+    printf("%d\n",d);
+    printf("%f\n",e);
+
+}
+
+2.print
+r
+d
+k
+w
+o
+p
+
+#include<stdio.h>
+int main(){
+    char a='r',b='d',c='k',d='w',e='o',f='p';
+    printf("%c\n%c\n%c\n%c\n%c\n%c\n",a,b,c,d,e,f);
+    return 0;
+    }
+
+3.print
+67
+2.350000
+w
+
+#include<stdio.h>
+int main(){
+   int a= 67;
+   float b=2.35;
+   char c='w';
+   printf("%d\n",a);
+   printf("%f\n",b);
+   printf("%c",c);
+   return 0;
+    }
+
+
+4.print 
+12342
+4.560000
+f
+-32.000000
+4.500000
+
+#include<stdio.h>
+int main(){
+   int a= 12342;
+   float b=4.56;
+   char c='f';
+   float d=-32;
+   float e=4.5;
+   printf("%d\n",a);
+   printf("%f\n",b);
+   printf("%c\n",c);
+   printf("%f\n",d);
+   printf("%f",e);
+   return 0;
+    }
+
+5.print 34+78
+
+#include <stdio.h>
+int main(){
+    int a=34,b=78;
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+}
+
+6.print output of 23-6
+
+#include <stdio.h>
+int main(){
+    int a=23,b=6;
+    int c=a-b;
+    printf("%d",c);
+    return 0;
+}
+
+7.print output of 45*2
+
+#include <stdio.h>
+int main(){
+    int a=45,b=2;
+    int c=a*b;
+    printf("%d",c);
+    return 0;
+}
+
+8. print output of 56/2
+
+#include <stdio.h>
+int main(){
+    int a=56,b=2;
+    int c=a/b;
+    printf("%d",c);
+    return 0;
+}
+
+9.
+45+78+23+12
+
+#include<stdio.h>
+int main (){
+    int a=45,b=78,c=23,d=12;
+    int sum=a+b+c+d;
+    printf("%d",sum);
+    
+}
+
+
+10. 
+56*34+12/2-13
+#include<stdio.h>
+int main (){
+    int a=56,b=34,c=12,d=2,e=13;
+    int sum=a*b+c/d-e;
+    printf("%d",sum);
+    
+}
+
+11.
+#include<stdio.h>
+int main (){
+    float a=1.2,b=6.7,d=4.5;
+    int c=7,e=2;
+    float result=a*b-c+d/e;
+    printf("%f",result);    
+}
+
+
+12.
+1.6*(12-2)/2+7.8-1.5
+
+#include<stdio.h>
+int main (){
+    float a=1.6,b=7.8,d=1.5;
+    int c=12,e=2;
+    float result=a*(c-e)/e+b-d;
+    printf("%f",result);    
+}
+
+13.
+
+#include<stdio.h>
+int main (){
+    float a=4.5,b=1.2,d=5.6,f=1.234;
+    int c=82,e=2;
+    float result=a*b-(c/e)-d+f;
+    printf("%f",result);    
+}
+
+14.
+
+#include<stdio.h>
+int main (){
+    int a=8,b=1,c=4,d=2,e=1,f=6;
+    int result=a*b+(c-d)/b+f;
+    printf("%d",result);
+    }
+
+
+15.
+3.4+1.2*(3.7-1.2)/2+6.8
+
+#include<stdio.h>
+int main (){
+    float a=3.4,b=1.2,c=3.7,d=6.8;
+    int e=2;
+    float result =a+b*(c-b)/e+d;
+    printf("%f",result);
+    return 0;
+    }
+
+16.
+8.9*1.67-(6.21-5.6
+
+#include<std0+7.8-34+157io.h>
+int main (){
+    float a=8.9,b=1.67,c=6.21,d=5.6,f=7.8;
+    int e=34,g=157;
+    float result =a*b-(c-d)+f-e+g;
+    printf("%f",result);
+    return 0;
+    }
+

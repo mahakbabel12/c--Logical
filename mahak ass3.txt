@@ -1,0 +1,35 @@
+ASSIGNMENT 3
+
+
+1.SWAP VALUES WITHOUT USING THIRD VARIABLES.
+
+#include<stdio.h>
+int main (){
+    int a=2;
+    int b=1;
+    printf("%d\n",a);
+    printf("%d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("the value of a after swap:%d\n",a);
+    printf("the value of b after swap:%d\n",b);
+    return 0;
+    }
+
+
+2.SWAP VALUES WITH USING THIRD VARIABLE
+
+#include<stdio.h>
+int main(){
+    int a=1,b=2,c;
+    printf("value of a :%d\n",a);
+    printf("value of b :%d\n",b);
+    c=b;
+    b=a;
+    a=c;
+    printf("value of a after swap:%d\n",a);
+    printf("value of b after swap :%d\n",b);
+    return 0;
+
+}
